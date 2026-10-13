@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="ja" data-variant="a">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>買取対象機器｜株式会社エルエムピージャパン</title>
+<meta name="description" content="株式会社エルエムピージャパン（Lmp Japan）は、日本で不要になった医療機器を病院から買い取り、医療機器を必要とする海外の国々へ輸出販売しています。日本全国どこへでも査定いたします。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="中古医療機器の買取・販売｜株式会社エルエムピージャパン">
+<meta property="og:description" content="医療機器を通じて、世界へ貢献する。日本で役目を終えた医療機器を買い取り、必要とする海外の医療現場へお届けしています。">
+<meta property="og:image" content="https://images.unsplash.com/photo-1666214280352-db292c05fd80?w=1200&h=630&fit=crop&q=80">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230b2545'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' fill='%23fff' text-anchor='middle'%3EL%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500;600;700&family=Zen+Old+Mincho:wght@500;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+/* ===== tokens ===== */
+:root{
+  --ink:#1b2433; --sub:#5e6878; --line:#dfe3ea; --bg:#ffffff; --tint:#f5f7fa;
+  --main:#0b2545; --accent:#3e6a9e; --on-main:#ffffff;
+  --f-display:"Shippori Mincho B1","Hiragino Mincho ProN","Yu Mincho",serif;
+  --f-en:"Cormorant Garamond",Georgia,serif;
+  --f-body:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;
+  --gutter:clamp(20px,5vw,64px);
+  --maxw:1160px;
+  --sec-pad:clamp(80px,11vw,150px);
+  --radius:0px;
+}
+/* 案B: Clinical Blue（白×医療ブルー・左右分割） */
+html[data-variant="b"]{
+  --ink:#16202e; --sub:#5a6577; --line:#dce4ee; --tint:#f1f6fb;
+  --main:#123d6e; --accent:#2f6fb5; --radius:2px;
+  --f-display:"Shippori Mincho B1","Hiragino Mincho ProN",serif;
+}
+/* 案C: Editorial（白×インディゴ・縦書きと大きな余白） */
+html[data-variant="c"]{
+  --ink:#1a1f2e; --sub:#626a7a; --line:#e3e5ea; --tint:#f7f7f5;
+  --main:#172a5a; --accent:#566b9e;
+  --f-display:"Zen Old Mincho","Hiragino Mincho ProN",serif;
+  --sec-pad:clamp(96px,13vw,180px);
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--f-body);color:var(--ink);background:var(--bg);line-height:1.9;font-size:15px;letter-spacing:.03em;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,h4{font-family:var(--f-display);font-weight:600;line-height:1.5;text-wrap:balance}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.wrap{max-width:var(--maxw);margin:0 auto;padding-inline:var(--gutter)}
+.en{font-family:var(--f-en);letter-spacing:.12em}
+.tbd{color:var(--sub);border-bottom:1px dashed var(--sub);font-size:.92em}
+
+/* ===== header ===== */
+.site-head{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.head-in{max-width:var(--maxw);margin:0 auto;padding:0 var(--gutter);height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.logo{display:flex;flex-direction:column;line-height:1.2}
+.logo .mark{font-family:var(--f-en);font-size:25px;font-weight:600;letter-spacing:.14em;color:var(--main)}
+.logo small{font-size:10.5px;color:var(--sub);letter-spacing:.2em}
+.gnav{display:flex;align-items:center;gap:30px;font-size:13.5px}
+.gnav a{position:relative;padding:6px 0;color:var(--ink)}
+.gnav a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--main);transform:scaleX(0);transition:transform .3s}
+.gnav a:hover::after,.gnav a.on::after{transform:scaleX(1)}
+.gnav .cta{background:var(--main);color:var(--on-main);padding:11px 24px;border-radius:var(--radius);letter-spacing:.1em}
+.gnav .cta::after{display:none}
+.gnav .cta:hover{background:var(--accent)}
+.menu-btn{display:none;background:none;border:0;width:44px;height:44px;cursor:pointer;position:relative}
+.menu-backdrop{display:none}
+.menu-btn span{position:absolute;left:11px;right:11px;height:1px;background:var(--ink);transition:.3s}
+.menu-btn span:nth-child(1){top:17px}.menu-btn span:nth-child(2){top:26px}
+.menu-open .menu-btn span:nth-child(1){top:21px;transform:rotate(45deg)}
+.menu-open .menu-btn span:nth-child(2){top:21px;transform:rotate(-45deg)}
+html[data-variant="c"] .head-in{height:auto;padding-block:22px 14px;flex-direction:column;gap:14px}
+html[data-variant="c"] .logo{align-items:center}
+html[data-variant="b"] .site-head{border-top:3px solid var(--accent)}
+@media (max-width:960px){
+  .menu-btn{display:block}
+  .menu-backdrop{display:block}
+  html[data-variant="c"] .head-in{flex-direction:row;padding-block:0;height:72px}
+  html[data-variant="c"] .logo{align-items:flex-start}
+  .site-head{backdrop-filter:none;-webkit-backdrop-filter:none;background:#fff}
+  .menu-btn{position:relative;z-index:3}
+  .gnav{position:fixed;top:0;right:0;bottom:0;width:min(82vw,340px);background:#fff;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:0;
+    padding:calc(env(safe-area-inset-top,0px) + 86px) 28px calc(env(safe-area-inset-bottom,0px) + 28px);
+    transform:translateX(100%);visibility:hidden;transition:transform .38s ease,visibility 0s linear .38s;box-shadow:-14px 0 40px rgba(10,20,40,.14);z-index:2;overflow-y:auto}
+  .gnav::before{content:"Menu";position:absolute;top:calc(env(safe-area-inset-top,0px) + 28px);left:28px;font-family:var(--f-en);font-style:italic;font-size:15px;letter-spacing:.14em;color:var(--accent)}
+  .menu-open .gnav{transform:none;visibility:visible;transition:transform .38s ease,visibility 0s}
+  .gnav a{padding:clamp(11px,2.1vh,16px) 2px;border-bottom:1px solid var(--line);font-size:15px;font-family:var(--f-display);font-weight:600;letter-spacing:.08em;color:var(--main);display:flex;justify-content:space-between;align-items:center}
+  .gnav a:not(.cta)::after{content:"";display:block;position:static;width:14px;height:1px;background:var(--main);opacity:.45;transform:none;transition:width .3s}
+  .gnav a.on{color:var(--accent)}
+  .gnav a.on::after{width:22px;opacity:1;background:var(--accent)}
+  .gnav .cta{margin-top:22px;justify-content:center;border-bottom:0;padding:15px 20px;font-family:var(--f-body);font-weight:500;color:#fff}
+  .menu-backdrop{position:fixed;inset:0;background:rgba(6,22,44,.42);opacity:0;pointer-events:none;transition:opacity .38s;z-index:1}
+  .menu-open .menu-backdrop{opacity:1;pointer-events:auto}
+  html.menu-lock,html.menu-lock body{overflow:hidden}
+  .head-in{height:72px}
+}
+
+/* ===== hero slideshow ===== */
+.hero{position:relative;overflow:hidden;background:var(--main)}
+.slides{position:absolute;inset:0}
+.slide{position:absolute;inset:0;opacity:0;transition:opacity 1.6s ease}
+.slide.on{opacity:1}
+.slide img{width:100%;height:100%;object-fit:cover;transform:scale(1.12);transition:transform 9s linear}
+.slide.on img{transform:scale(1)}
+.copies{position:relative;z-index:3}
+.copy{position:absolute;opacity:0;transform:translateY(18px);transition:opacity 1s ease .5s,transform 1.2s ease .5s;pointer-events:none}
+.copy.on{opacity:1;transform:none;pointer-events:auto}
+.copy .en{display:block;font-size:13px;margin-bottom:18px;font-style:italic}
+.copy h1{font-size:clamp(30px,4.6vw,56px);font-weight:600;letter-spacing:.08em}
+.copy p{margin-top:22px;font-size:clamp(14px,1.3vw,16px);max-width:34em}
+.hero-ctrl{position:absolute;z-index:4;display:flex;align-items:center;gap:18px}
+.hero-ctrl button{background:none;border:0;cursor:pointer;color:inherit;font-size:13px;letter-spacing:.1em;padding:6px}
+.counter{font-family:var(--f-en);font-size:15px;letter-spacing:.15em;font-variant-numeric:tabular-nums}
+.pbar{width:120px;height:1px;background:currentColor;opacity:.35;position:relative}
+.pbar i{position:absolute;left:0;top:-0.5px;height:2px;width:0;background:currentColor;opacity:1}
+.pbar i.run{animation:prog var(--dur,6.5s) linear forwards}
+.paused .pbar i.run{animation-play-state:paused}
+@keyframes prog{to{width:100%}}
+
+/* 案A: 全面写真＋左下コピー */
+html[data-variant="a"] .hero{height:min(88vh,780px);min-height:560px;color:#fff}
+html[data-variant="a"] .slide::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(6,22,44,.78) 0%,rgba(6,22,44,.35) 55%,rgba(6,22,44,.1) 100%)}
+html[data-variant="a"] .copies{position:absolute;left:0;right:0;bottom:22%;max-width:var(--maxw);margin:0 auto;padding-inline:var(--gutter);height:0}
+html[data-variant="a"] .copy{left:var(--gutter);bottom:0;max-width:640px}
+html[data-variant="a"] .hero-ctrl{left:0;right:0;bottom:44px;max-width:var(--maxw);margin:0 auto;padding-inline:var(--gutter)}
+
+/* 案B: 左に白パネル、右に写真 */
+html[data-variant="b"] .hero{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);background:var(--bg);min-height:640px;height:min(84vh,760px)}
+html[data-variant="b"] .slides{position:relative;grid-column:2;grid-row:1}
+html[data-variant="b"] .copies{grid-column:1;grid-row:1;padding:0 48px 0 var(--gutter);display:flex;align-items:center;color:var(--main)}
+html[data-variant="b"] .copy{left:var(--gutter);right:40px;top:50%;transform:translateY(calc(-50% + 18px))}
+html[data-variant="b"] .copy.on{transform:translateY(-50%)}
+html[data-variant="b"] .copy p{color:var(--sub)}
+html[data-variant="b"] .copy h1{font-size:clamp(26px,2.9vw,42px)}
+html[data-variant="b"] .copy .en{color:var(--accent);font-style:normal;font-weight:600}
+html[data-variant="b"] .copy::before{content:"";display:block;width:44px;height:2px;background:var(--accent);margin-bottom:26px}
+html[data-variant="b"] .hero-ctrl{left:var(--gutter);right:calc(58.333% + 32px);bottom:44px;color:var(--main);flex-wrap:wrap;gap:10px 18px}
+html[data-variant="b"] .hero-ctrl .pbar{flex:1 1 40px;width:auto;min-width:40px}
+
+/* 案C: 余白で囲んだ写真＋右に縦書きコピー */
+html[data-variant="c"] .hero{background:var(--bg);height:min(86vh,800px);min-height:600px;padding:0 var(--gutter) 70px}
+html[data-variant="c"] .slides{position:absolute;top:0;bottom:70px;left:var(--gutter);right:calc(var(--gutter) + 150px)}
+html[data-variant="c"] .copies{position:absolute;top:40px;right:var(--gutter);bottom:110px;width:150px}
+html[data-variant="c"] .copy{right:0;top:0;bottom:0;writing-mode:vertical-rl;color:var(--main);display:flex;gap:18px;align-items:flex-start;transform:translateX(12px)}
+html[data-variant="c"] .copy.on{transform:none}
+html[data-variant="c"] .copy h1{font-size:clamp(28px,3.4vw,44px);letter-spacing:.24em;line-height:1.8}
+html[data-variant="c"] .copy p,html[data-variant="c"] .copy .en{display:none}
+html[data-variant="c"] .hero-ctrl{left:var(--gutter);bottom:18px;color:var(--main)}
+@media (max-width:860px){
+  html[data-variant="b"] .hero{grid-template-columns:1fr;grid-template-rows:auto 56vh;height:auto}
+  html[data-variant="b"] .slides{grid-column:1;grid-row:2;min-height:56vh}
+  html[data-variant="b"] .copies{grid-row:1;padding:56px var(--gutter) 90px;min-height:clamp(420px,62vw,480px);align-items:flex-start}
+  html[data-variant="b"] .copy{top:56px;transform:translateY(18px)}
+  html[data-variant="b"] .copy.on{transform:none}
+  html[data-variant="b"] .hero-ctrl{top:auto;bottom:calc(56vh + 26px);right:var(--gutter)}
+  html[data-variant="c"] .slides{right:var(--gutter);top:0;bottom:70px}
+  html[data-variant="c"] .copies{right:calc(var(--gutter) + 14px);top:24px;bottom:auto;height:62%;width:auto;background:rgba(255,255,255,.9);padding:18px 12px}
+  html[data-variant="a"] .copies{bottom:26%}
+}
+
+/* ===== sections ===== */
+section{padding-block:var(--sec-pad)}
+.tint{background:var(--tint)}
+.sec-head{margin-bottom:clamp(44px,6vw,72px)}
+.sec-head .en{display:block;color:var(--accent);font-size:15px;font-style:italic;margin-bottom:10px}
+.sec-head h2{font-size:clamp(24px,2.8vw,34px);color:var(--main);letter-spacing:.1em}
+.sec-head p{margin-top:18px;color:var(--sub);max-width:40em}
+html[data-variant="a"] .sec-head{text-align:center}
+html[data-variant="a"] .sec-head p{margin-inline:auto}
+html[data-variant="a"] .sec-head h2::after{content:"";display:block;width:1px;height:36px;background:var(--main);margin:22px auto 0;opacity:.5}
+html[data-variant="b"] .sec-head .en{font-style:normal;font-weight:600;font-size:14px}
+html[data-variant="b"] .sec-head h2{padding-left:18px;border-left:2px solid var(--accent)}
+html[data-variant="c"] .sec-head{display:grid;grid-template-columns:auto 1fr;column-gap:28px;align-items:end}
+html[data-variant="c"] .sec-head .num{font-family:var(--f-en);font-size:clamp(56px,8vw,96px);line-height:.8;color:var(--line);grid-row:span 2}
+html[data-variant="c"] .sec-head p{grid-column:1 / -1}
+.sec-head .num{display:none}
+html[data-variant="c"] .sec-head .num{display:block}
+
+/* intro */
+.intro{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(40px,7vw,100px);align-items:center}
+.intro .pic{aspect-ratio:4/5;overflow:hidden;border-radius:var(--radius)}
+.intro .pic img{width:100%;height:100%;object-fit:cover}
+.intro h2{font-size:clamp(24px,3vw,38px);color:var(--main);letter-spacing:.12em;margin-bottom:34px}
+.intro p+p{margin-top:1.4em}
+.intro .en{display:block;color:var(--accent);font-style:italic;margin-bottom:16px}
+
+
+/* business */
+.biz{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(24px,3vw,40px)}
+.biz-item .pic{aspect-ratio:3/2;overflow:hidden;border-radius:var(--radius)}
+.biz-item .pic img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s ease}
+.biz-item:hover .pic img{transform:scale(1.05)}
+.biz-item .no{font-family:var(--f-en);font-size:14px;color:var(--accent);letter-spacing:.2em;margin-top:24px;display:block}
+.biz-item h3{font-size:20px;color:var(--main);margin-top:6px;letter-spacing:.08em}
+.biz-item p{margin-top:12px;color:var(--sub);font-size:14px}
+
+/* products */
+.prod{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.prod-item{background:var(--bg);display:grid;grid-template-rows:auto 1fr}
+.prod-item .pic{aspect-ratio:16/10;overflow:hidden}
+.prod-item .pic img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s ease}
+.prod-item:hover .pic img{transform:scale(1.05)}
+.prod-item .txt{padding:26px 28px 30px}
+.prod-item h3{font-size:18px;color:var(--main);letter-spacing:.06em}
+.prod-item p{font-size:13.5px;color:var(--sub);margin-top:8px}
+.note{font-size:12.5px;color:var(--sub);margin-top:22px}
+
+/* reasons */
+.reasons{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(28px,4vw,56px);counter-reset:r}
+.reason{border-top:1px solid var(--main);padding-top:28px}
+.reason .en{color:var(--accent);font-size:14px;display:block}
+.reason h3{font-size:20px;color:var(--main);margin:10px 0 14px;letter-spacing:.06em}
+.reason p{color:var(--sub);font-size:14px}
+
+/* flow */
+.flow-tabs{display:flex;gap:0;border-bottom:1px solid var(--line);margin-bottom:44px}
+.flow-tabs button{font:inherit;background:none;border:0;padding:14px 28px;cursor:pointer;color:var(--sub);border-bottom:2px solid transparent;margin-bottom:-1px;letter-spacing:.08em}
+.flow-tabs button[aria-selected="true"]{color:var(--main);border-color:var(--main);font-weight:700}
+.steps{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0;list-style:none}
+.step{padding:0 22px 0 0;position:relative}
+.step .n{font-family:var(--f-en);font-size:34px;color:var(--main);line-height:1}
+.step .n::after{content:"";position:absolute;left:52px;right:18px;top:18px;height:1px;background:var(--line)}
+.step:last-child .n::after{display:none}
+.step h4{font-size:16px;color:var(--main);margin:16px 0 8px}
+.step p{font-size:13px;color:var(--sub)}
+
+/* cta band */
+.cta-band{position:relative;color:#fff;overflow:hidden;padding-block:clamp(90px,10vw,130px);text-align:center}
+.cta-band img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.cta-band::before{content:"";position:absolute;inset:0;background:rgba(8,26,52,.78);z-index:1}
+.cta-band .wrap{position:relative;z-index:2}
+.cta-band .en{font-style:italic;font-size:15px;display:block;margin-bottom:12px;opacity:.85}
+.cta-band h2{font-size:clamp(24px,3vw,34px);letter-spacing:.12em}
+.cta-band p{margin:18px auto 0;max-width:36em;opacity:.88}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:14px;font:inherit;font-size:14.5px;letter-spacing:.14em;padding:18px 44px;border:1px solid currentColor;border-radius:var(--radius);cursor:pointer;background:none;color:inherit;transition:.3s;margin-top:36px}
+.btn::after{content:"";width:22px;height:1px;background:currentColor;transition:width .3s}
+.btn:hover::after{width:34px}
+.btn.solid{background:var(--main);border-color:var(--main);color:#fff}
+.btn.solid:hover{background:var(--accent);border-color:var(--accent)}
+.btn.light{color:#fff}
+.btn.light:hover{background:#fff;color:var(--main)}
+
+/* sub page header */
+.page-head{position:relative;height:clamp(260px,32vw,380px);color:#fff;display:flex;align-items:flex-end;overflow:hidden}
+.page-head img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.page-head::before{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(6,22,44,.75),rgba(6,22,44,.25));z-index:1}
+.page-head .wrap{position:relative;z-index:2;width:100%;padding-bottom:48px}
+.page-head .en{font-style:italic;font-size:15px;display:block;opacity:.85}
+.page-head h1{font-size:clamp(28px,3.6vw,42px);letter-spacing:.14em;margin-top:6px}
+.crumb{font-size:12px;color:var(--sub);padding-block:18px;border-bottom:1px solid var(--line)}
+.crumb a{text-decoration:underline;text-underline-offset:3px}
+
+/* company */
+.message{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,7fr);gap:clamp(36px,6vw,90px)}
+.message h2{font-size:clamp(22px,2.6vw,30px);color:var(--main);letter-spacing:.12em}
+.message .body p+p{margin-top:1.4em}
+.message .sign{text-align:right;margin-top:32px;font-family:var(--f-display)}
+.ctable{width:100%;border-collapse:collapse;border-top:1px solid var(--main)}
+.ctable th,.ctable td{text-align:left;vertical-align:top;padding:22px 16px;border-bottom:1px solid var(--line);font-weight:400}
+.ctable th{width:200px;color:var(--main);font-family:var(--f-display);font-weight:600;letter-spacing:.08em;background:var(--tint)}
+.philo{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(24px,3vw,40px)}
+.philo div{border:1px solid var(--line);padding:34px 30px;border-radius:var(--radius);background:var(--bg)}
+.philo .en{color:var(--accent);font-style:italic}
+.philo h3{font-size:19px;color:var(--main);margin:8px 0 12px}
+.philo p{font-size:14px;color:var(--sub)}
+
+/* form */
+.form-wrap{max-width:820px;margin:0 auto}
+.form-lead{color:var(--sub);margin-bottom:44px}
+.frow{display:grid;grid-template-columns:220px minmax(0,1fr);gap:24px;padding:24px 0;border-bottom:1px solid var(--line)}
+.frow:first-of-type{border-top:1px solid var(--main)}
+.frow > label,.frow > .lab{font-family:var(--f-display);font-weight:600;color:var(--main);padding-top:10px;letter-spacing:.06em}
+.req{display:inline-block;font-family:var(--f-body);font-size:11px;color:#fff;background:var(--accent);padding:1px 8px;margin-left:8px;vertical-align:2px;letter-spacing:.1em}
+.opt{display:inline-block;font-family:var(--f-body);font-size:11px;color:var(--sub);border:1px solid var(--line);padding:0 8px;margin-left:8px;vertical-align:2px}
+.fin input[type=text],.fin input[type=email],.fin input[type=tel],.fin select,.fin textarea{width:100%;font:inherit;font-size:15px;padding:13px 14px;border:1px solid #cdd3dc;border-radius:var(--radius);background:#fff;color:var(--ink)}
+.fin textarea{min-height:150px;resize:vertical}
+.fin input:focus,.fin select:focus,.fin textarea:focus{outline:none;border-color:var(--main);box-shadow:0 0 0 3px rgba(11,37,69,.12)}
+.fin .hint{font-size:12.5px;color:var(--sub);margin-top:6px}
+.radios{display:flex;flex-wrap:wrap;gap:10px 22px;padding-top:8px}
+.radios label{display:flex;gap:8px;align-items:center;cursor:pointer}
+.radios input{accent-color:var(--main);width:17px;height:17px}
+.err-msg{color:#b0322b;font-size:12.5px;margin-top:6px}
+.fin.bad input,.fin.bad textarea,.fin.bad select{border-color:#b0322b}
+.agree{text-align:center;margin-top:40px;font-size:14px}
+.agree label{display:inline-flex;gap:10px;align-items:center;cursor:pointer}
+.agree input{accent-color:var(--main);width:18px;height:18px}
+.form-actions{text-align:center}
+.confirm-table{width:100%;border-collapse:collapse;border-top:1px solid var(--main);margin-bottom:10px}
+.confirm-table th,.confirm-table td{text-align:left;vertical-align:top;padding:18px 14px;border-bottom:1px solid var(--line);font-weight:400;white-space:pre-wrap}
+.confirm-table th{width:220px;color:var(--main);font-family:var(--f-display);font-weight:600;background:var(--tint)}
+.done{text-align:center;padding-block:40px}
+.send-status{margin:18px 0 6px;padding:16px 20px;background:var(--tint);border-left:3px solid #b0322b;font-size:14px;line-height:1.9}
+.send-status a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+.btn[disabled]{opacity:.55;cursor:wait}
+.done h2{font-size:clamp(22px,2.6vw,30px);color:var(--main);letter-spacing:.12em}
+.done p{color:var(--sub);margin-top:18px}
+.privacy{font-size:13px;color:var(--sub);background:var(--tint);padding:24px 28px;margin-top:36px;max-height:180px;overflow:auto;border-radius:var(--radius)}
+.privacy h3{font-size:14px;color:var(--main);margin-bottom:8px}
+
+/* footer */
+.site-foot{background:var(--main);color:rgba(255,255,255,.82);padding-block:72px 32px;font-size:13.5px}
+.foot-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,2fr);gap:48px}
+.site-foot .mark{font-family:var(--f-en);font-size:26px;letter-spacing:.14em;color:#fff}
+.site-foot address{font-style:normal;margin-top:18px;line-height:2}
+.fnav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px 24px;align-content:start}
+.fnav a:hover{color:#fff;text-decoration:underline;text-underline-offset:4px}
+.copyright{border-top:1px solid rgba(255,255,255,.18);margin-top:56px;padding-top:24px;font-size:12px;font-family:var(--f-en);letter-spacing:.1em}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(24px);transition:opacity 1s ease,transform 1s ease}
+.rv.in{opacity:1;transform:none}
+
+/* pages */
+[hidden]{display:none!important}
+
+/* review switcher */
+.switcher{position:fixed;right:18px;bottom:18px;z-index:80;background:#fff;border:1px solid var(--line);box-shadow:0 10px 30px rgba(10,20,40,.14);padding:12px 14px;font-size:12px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;max-width:calc(100vw - 36px)}
+.switcher b{color:var(--main);margin-right:4px}
+.switcher button{font:inherit;font-size:12px;border:1px solid var(--line);background:#fff;padding:6px 12px;cursor:pointer;color:var(--ink)}
+.switcher button[aria-pressed="true"]{background:var(--main);border-color:var(--main);color:#fff}
+
+@media (max-width:860px){
+  .intro,.message,.foot-grid{grid-template-columns:1fr}
+
+  .biz,.prod,.reasons,.philo{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr;gap:28px}
+  .step .n::after{display:none}
+  .frow{grid-template-columns:1fr;gap:8px}
+  .ctable th{width:110px}
+  .ctable th,.ctable td{padding:16px 12px}
+  .confirm-table th{width:120px}
+  .fnav{grid-template-columns:1fr 1fr}
+}
+@media (min-width:861px) and (max-width:1100px){
+  .prod{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (prefers-reduced-motion:reduce){
+  .slide,.slide img,.copy,.rv{transition:none!important}
+  .slide img{transform:none!important}
+  .rv{opacity:1;transform:none}
+}
+</style>
+</head>
+<body data-current="products">
+<header class="site-head" id="siteHead">
+  <div class="head-in">
+    <a class="logo" href="index.html" aria-label="株式会社エルエムピージャパン ホーム">
+      <span class="mark">Lmp Japan</span>
+      <small>株式会社エルエムピージャパン</small>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="メニューを開く" aria-expanded="false" aria-controls="gnav"><span></span><span></span></button>
+    <div class="menu-backdrop" id="menuBackdrop" aria-hidden="true"></div>
+    <nav class="gnav" id="gnav" aria-label="メインメニュー">
+      <a href="index.html" data-nav="home">ホーム</a>
+      <a href="business.html" data-nav="business">事業内容</a>
+      <a href="products.html" data-nav="products" aria-current="page">買取対象機器</a>
+      <a href="flow.html" data-nav="flow">買取の流れ</a>
+      <a href="company.html" data-nav="company">会社概要</a>
+      <a href="contact.html" data-nav="apply" class="cta">お問い合わせ</a>
+    </nav>
+  </div>
+</header>
+
+<main data-page="products">
+  <div class="page-head"><img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?w=2000&q=75&auto=format&fit=crop" alt=""><div class="wrap"><span class="en">Equipment</span><h1>買取対象機器</h1></div></div>
+  <div class="wrap crumb"><a href="index.html">ホーム</a> ／ 買取対象機器</div>
+  <section>
+    <div class="wrap">
+      <div class="sec-head rv"><span class="num">03</span><span class="en">Categories</span><h2>主な買取対象機器</h2><p>年式が古い機器、国内では値段がつかないと言われた機器もご相談ください。掲載以外の機器も査定いたします。</p></div>
+      <div class="prod">
+        <article class="prod-item rv"><div class="pic"><img src="https://images.unsplash.com/photo-1666214280352-db292c05fd80?w=900&q=80&auto=format&fit=crop" alt="画像診断装置" loading="lazy"></div><div class="txt"><h3>画像診断装置</h3><p>CT・X線撮影装置・超音波診断装置など</p></div></article>
+        <article class="prod-item rv"><div class="pic"><img src="https://images.unsplash.com/photo-1513224502586-d1e602410265?w=900&q=80&auto=format&fit=crop" alt="生体情報モニター" loading="lazy"></div><div class="txt"><h3>生体情報モニター</h3><p>ベッドサイドモニター・心電計など</p></div></article>
+        <article class="prod-item rv"><div class="pic"><img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?w=900&q=80&auto=format&fit=crop" alt="手術室の機器" loading="lazy"></div><div class="txt"><h3>手術関連機器・内視鏡</h3><p>手術台・無影灯・電気メス・内視鏡システムなど</p></div></article>
+        <article class="prod-item rv"><div class="pic"><img src="https://images.unsplash.com/photo-1606206591513-adbfbdd7a177?w=900&q=80&auto=format&fit=crop" alt="検体検査に使う採血管" loading="lazy"></div><div class="txt"><h3>検体検査機器</h3><p>血球計数装置・生化学分析装置など</p></div></article>
+        <article class="prod-item rv"><div class="pic"><img src="https://images.unsplash.com/photo-1518152006812-edab29b069ac?w=900&q=80&auto=format&fit=crop" alt="顕微鏡" loading="lazy"></div><div class="txt"><h3>顕微鏡・理化学機器</h3><p>生物顕微鏡・遠心分離機など</p></div></article>
+        <article class="prod-item rv"><div class="pic"><img src="https://images.unsplash.com/photo-1763070282903-cbe9922ab7ab?w=900&q=80&auto=format&fit=crop" alt="聴診器" loading="lazy"></div><div class="txt"><h3>診療所向け一般機器</h3><p>診察台・滅菌器・処置用機器など</p></div></article>
+      </div>
+      <p class="note">※ 掲載の写真はイメージです。査定額は機種・年式・状態・海外での需要によって異なります。</p>
+      <div style="text-align:center"><a class="btn solid" href="contact.html">お問い合わせ</a></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="mark">Lmp Japan</div>
+        <address>株式会社エルエムピージャパン<br>〒150-0043 東京都渋谷区道玄坂1-21-1<br>Shibuya Solasta 3F<br>TEL <a href="tel:0345303313">03-4530-3313</a></address>
+      </div>
+      <nav class="fnav" aria-label="フッターメニュー">
+        <a href="index.html">ホーム</a>
+        <a href="business.html">事業内容</a>
+        <a href="products.html">買取対象機器</a>
+        <a href="flow.html">買取の流れ</a>
+        <a href="company.html">会社概要</a>
+        <a href="contact.html">お問い合わせ</a>
+      </nav>
+    </div>
+    <p class="copyright">© Lmp Japan Corporation. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  const $ = (s, r = document) => r.querySelector(s);
+  const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ---------- reveal ---------- */
+  const io = "IntersectionObserver" in window ? new IntersectionObserver((es) => {
+    es.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } });
+  }, { threshold: .12, rootMargin: "0px 0px -40px 0px" }) : null;
+  function watch(root) { $$(".rv:not(.in)", root).forEach(el => io ? io.observe(el) : el.classList.add("in")); }
+
+  /* ---------- router ---------- */
+  const TITLES = { home: "", business: "事業内容", products: "買取対象機器", flow: "買取の流れ", company: "会社概要", apply: "お問い合わせ" };
+  const BASE = "中古医療機器の買取・販売｜株式会社エルエムピージャパン";
+  const CURRENT = document.body.dataset.current || "";
+  function route() {
+    const id = CURRENT || (location.hash || "#home").slice(1);
+    const page = TITLES.hasOwnProperty(id) ? id : "home";
+    $$("[data-page]").forEach(p => p.hidden = p.dataset.page !== page);
+    $$("[data-nav]").forEach(a => a.classList.toggle("on", a.dataset.nav === page));
+    document.title = TITLES[page] ? TITLES[page] + "｜株式会社エルエムピージャパン" : BASE;
+    if (!CURRENT) window.scrollTo({ top: 0, behavior: "auto" });
+    closeMenu();
+    watch($('[data-page="' + page + '"]'));
+    if (page === "home") startShow(); else stopShow();
+  }
+  if (!CURRENT) window.addEventListener("hashchange", route);
+
+  /* ---------- menu ---------- */
+  const menuBtn = $("#menuBtn");
+  function setMenu(open) {
+    document.body.classList.toggle("menu-open", open);
+    document.documentElement.classList.toggle("menu-lock", open);
+    menuBtn.setAttribute("aria-expanded", String(open));
+    menuBtn.setAttribute("aria-label", open ? "メニューを閉じる" : "メニューを開く");
+  }
+  function closeMenu() { setMenu(false); }
+  menuBtn.addEventListener("click", () => setMenu(!document.body.classList.contains("menu-open")));
+  $("#menuBackdrop").addEventListener("click", closeMenu);
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && document.body.classList.contains("menu-open")) { closeMenu(); menuBtn.focus(); } });
+  matchMedia("(min-width: 961px)").addEventListener("change", (e) => { if (e.matches) closeMenu(); });
+
+  /* ---------- slideshow ---------- */
+  let startShow = () => {}, stopShow = () => {};
+  const hero = $("#hero");
+  if (hero) {
+  const slides = $$(".slide"), copies = $$(".copy"), bar = $("#pbar");
+  const DUR = 6500;
+  let idx = 0, timer = null, paused = false;
+  function go(n) {
+    idx = (n + slides.length) % slides.length;
+    slides.forEach((s, i) => s.classList.toggle("on", i === idx));
+    copies.forEach((c, i) => c.classList.toggle("on", i === idx));
+    $("#cur").textContent = String(idx + 1).padStart(2, "0");
+    restartBar();
+    schedule();
+  }
+  function restartBar() { bar.classList.remove("run"); void bar.offsetWidth; if (!paused && !reduce) bar.classList.add("run"); }
+  function schedule() { clearTimeout(timer); if (!paused && !reduce) timer = setTimeout(() => go(idx + 1), DUR); }
+  startShow = function () { if (!paused) { restartBar(); schedule(); } }
+  stopShow = function () { clearTimeout(timer); }
+  $("#nextBtn").addEventListener("click", () => go(idx + 1));
+  $("#prevBtn").addEventListener("click", () => go(idx - 1));
+  $("#pauseBtn").addEventListener("click", (e) => {
+    paused = !paused;
+    hero.classList.toggle("paused", paused);
+    e.currentTarget.textContent = paused ? "PLAY" : "PAUSE";
+    e.currentTarget.setAttribute("aria-label", paused ? "スライドショーを再生" : "スライドショーを一時停止");
+    if (paused) { clearTimeout(timer); } else { restartBar(); schedule(); }
+  });
+  let sx = null;
+  hero.addEventListener("touchstart", e => sx = e.touches[0].clientX, { passive: true });
+  hero.addEventListener("touchend", e => { if (sx == null) return; const dx = e.changedTouches[0].clientX - sx; if (Math.abs(dx) > 50) go(idx + (dx < 0 ? 1 : -1)); sx = null; });
+  document.addEventListener("visibilitychange", () => { if (document.hidden) stopShow(); else if ($('[data-page="home"]').hidden === false) startShow(); });
+  }
+
+  /* ---------- flow tabs ---------- */
+  $$('.flow-tabs [role="tab"]').forEach(t => t.addEventListener("click", () => {
+    $$('.flow-tabs [role="tab"]').forEach(x => { const on = x === t; x.setAttribute("aria-selected", String(on)); $("#" + x.getAttribute("aria-controls")).hidden = !on; });
+  }));
+
+  /* ---------- form ---------- */
+  const form = $("#applyForm");
+  if (form) {
+  const FIELDS = [
+    ["kind", "お問い合わせ内容", true], ["org", "医療機関名・会社名", true], ["person", "ご担当者名", true],
+    ["dept", "部署・役職", false], ["tel", "電話番号", true], ["mail", "メールアドレス", true],
+    ["device", "対象の機器", false], ["when", "ご希望の時期", false], ["body", "ご相談内容", true]
+  ];
+  function val(name) {
+    const r = form.querySelector('input[name="' + name + '"]:checked');
+    if (r) return r.value;
+    const el = form.elements[name];
+    return el && el.value !== undefined ? el.value.trim() : "";
+  }
+  function setErr(name, msg) {
+    const box = form.querySelector('[data-f="' + name + '"]');
+    box.classList.toggle("bad", !!msg);
+    let m = box.querySelector(".err-msg");
+    if (msg) { if (!m) { m = document.createElement("p"); m.className = "err-msg"; box.appendChild(m); } m.textContent = msg; }
+    else if (m) m.remove();
+  }
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    let first = null;
+    FIELDS.forEach(([n, label, req]) => {
+      let msg = "";
+      const v = val(n);
+      if (req && !v) msg = label + "を" + (n === "kind" ? "選択" : "入力") + "してください。";
+      else if (n === "mail" && v && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)) msg = "メールアドレスの形式をご確認ください（例：info@example.com）。";
+      else if (n === "tel" && v && !/^[0-9０-９\-－ ()（）+]{9,}$/.test(v)) msg = "電話番号は数字とハイフンで入力してください。";
+      setErr(n, msg);
+      if (msg && !first) first = n;
+    });
+    const agree = $("#agree").checked;
+    setErr("agree", agree ? "" : "個人情報の取り扱いへの同意が必要です。");
+    if (!agree && !first) first = "agree";
+    if (first) {
+      const target = form.querySelector('[data-f="' + first + '"]');
+      target.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "center" });
+      const focusEl = target.querySelector("input,textarea,select"); if (focusEl) focusEl.focus({ preventScroll: true });
+      return;
+    }
+    const tb = $("#confirmTable"); tb.replaceChildren();
+    FIELDS.forEach(([n, label]) => {
+      const tr = document.createElement("tr");
+      const th = document.createElement("th"); th.textContent = label;
+      const td = document.createElement("td"); td.textContent = val(n) || "—";
+      tr.append(th, td); tb.appendChild(tr);
+    });
+    form.hidden = true; $("#confirmView").hidden = false;
+    window.scrollTo({ top: $(".crumb", $('[data-page="apply"]')).offsetTop - 80, behavior: reduce ? "auto" : "smooth" });
+  });
+  $("#backBtn").addEventListener("click", () => { $("#confirmView").hidden = true; form.hidden = false; });
+  /* 送信先: FormSubmit（https://formsubmit.co）経由で下記アドレスにメールが届きます */
+  const MAIL_TO = "leima612@hotmail.com";
+  const ENDPOINT = "https://formsubmit.co/ajax/" + MAIL_TO;
+  function payload() {
+    const d = {};
+    FIELDS.forEach(([n, label]) => { d[label] = val(n) || "—"; });
+    d._subject = "【HPお問い合わせ】" + val("kind") + "／" + val("org");
+    d._replyto = val("mail");
+    d._template = "table";
+    d._captcha = "false";
+    return d;
+  }
+  function mailtoHref() {
+    const body = FIELDS.map(([n, label]) => label + "：" + (val(n) || "—")).join("\n");
+    return "mailto:" + MAIL_TO + "?subject=" + encodeURIComponent("【HPお問い合わせ】" + val("kind")) + "&body=" + encodeURIComponent(body);
+  }
+  $("#sendBtn").addEventListener("click", async () => {
+    const btn = $("#sendBtn"), back = $("#backBtn"), st = $("#sendStatus");
+    btn.disabled = true; back.disabled = true; btn.textContent = "送信中…"; st.hidden = true;
+    let ok = false;
+    try {
+      const res = await fetch(ENDPOINT, { method: "POST", headers: { "Content-Type": "application/json", "Accept": "application/json" }, body: JSON.stringify(payload()) });
+      const j = await res.json().catch(() => ({}));
+      ok = res.ok && String(j.success) === "true";
+    } catch (e) { ok = false; }
+    btn.disabled = false; back.disabled = false; btn.textContent = "送信する";
+    if (ok) {
+      $("#confirmView").hidden = true; $("#doneView").hidden = false; form.reset();
+      window.scrollTo({ top: $(".crumb", $('[data-page="apply"]')).offsetTop - 80, behavior: reduce ? "auto" : "smooth" });
+    } else {
+      st.replaceChildren();
+      st.append("送信できませんでした。通信状況をご確認のうえ、もう一度「送信する」を押してください。解決しない場合は、");
+      const a = document.createElement("a"); a.href = mailtoHref(); a.textContent = "メールソフトで送る"; st.append(a);
+      st.append("か、お電話（03-4530-3313）でお問い合わせください。");
+      st.hidden = false;
+    }
+  });
+  form.addEventListener("input", (e) => { const box = e.target.closest("[data-f]"); if (box && box.classList.contains("bad")) setErr(box.dataset.f, ""); });
+  if (!CURRENT) window.addEventListener("hashchange", () => { if (location.hash === "#apply") { $("#doneView").hidden = true; $("#confirmView").hidden = true; form.hidden = false; } });
+  }
+
+  /* ---------- design switcher (review only) ---------- */
+  const sw = $("#switcher");
+  if (sw) {
+    const set = (v) => {
+      document.documentElement.dataset.variant = v;
+      $$("button", sw).forEach(b => b.setAttribute("aria-pressed", String(b.dataset.v === v)));
+      try { localStorage.setItem("lmp-variant", v); } catch (e) {}
+    };
+    $$("button", sw).forEach(b => b.addEventListener("click", () => set(b.dataset.v)));
+    let saved = null; try { saved = localStorage.getItem("lmp-variant"); } catch (e) {}
+    if (saved && /^[abc]$/.test(saved)) set(saved);
+  }
+
+  route();
+})();
+</script>
+</body>
+</html>
