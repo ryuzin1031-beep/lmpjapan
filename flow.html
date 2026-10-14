@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>買取の流れ｜株式会社エルエムピージャパン</title>
-<meta name="description" content="株式会社エルエムピージャパン（Lmp Japan）は、日本で不要になった医療機器を病院から買い取り、医療機器を必要とする海外の国々へ輸出販売しています。日本全国どこへでも査定いたします。">
+<title>買取の流れ｜STYLELINK</title>
+<meta name="description" content="STYLELINKは、日本で不要になった医療機器を病院から買い取り、医療機器を必要とする海外の国々へ輸出販売しています。日本全国どこへでも査定いたします。">
 <meta property="og:type" content="website">
-<meta property="og:title" content="中古医療機器の買取・販売｜株式会社エルエムピージャパン">
+<meta property="og:title" content="中古医療機器の買取・販売｜STYLELINK">
 <meta property="og:description" content="医療機器を通じて、世界へ貢献する。日本で役目を終えた医療機器を買い取り、必要とする海外の医療現場へお届けしています。">
 <meta property="og:image" content="https://images.unsplash.com/photo-1666214280352-db292c05fd80?w=1200&h=630&fit=crop&q=80">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230b2545'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' fill='%23fff' text-anchor='middle'%3EL%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230b2545'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' fill='%23fff' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500;600;700&family=Zen+Old+Mincho:wght@500;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
@@ -346,9 +346,9 @@ html[data-variant="c"] .sec-head .num{display:block}
 <body data-current="flow">
 <header class="site-head" id="siteHead">
   <div class="head-in">
-    <a class="logo" href="index.html" aria-label="株式会社エルエムピージャパン ホーム">
-      <span class="mark">Lmp Japan</span>
-      <small>株式会社エルエムピージャパン</small>
+    <a class="logo" href="index.html" aria-label="STYLELINK ホーム">
+      <span class="mark">STYLELINK</span>
+      <small>中古医療機器の買取・販売</small>
     </a>
     <button class="menu-btn" id="menuBtn" aria-label="メニューを開く" aria-expanded="false" aria-controls="gnav"><span></span><span></span></button>
     <div class="menu-backdrop" id="menuBackdrop" aria-hidden="true"></div>
@@ -395,8 +395,8 @@ html[data-variant="c"] .sec-head .num{display:block}
   <div class="wrap">
     <div class="foot-grid">
       <div>
-        <div class="mark">Lmp Japan</div>
-        <address>株式会社エルエムピージャパン<br>〒150-0043 東京都渋谷区道玄坂1-21-1<br>Shibuya Solasta 3F<br>TEL <a href="tel:0345303313">03-4530-3313</a></address>
+        <div class="mark">STYLELINK</div>
+        <address>STYLELINK<br>〒150-0043 東京都渋谷区道玄坂1-21-1<br>Shibuya Solasta 3F<br>TEL <a href="tel:0345303313">03-4530-3313</a></address>
       </div>
       <nav class="fnav" aria-label="フッターメニュー">
         <a href="index.html">ホーム</a>
@@ -407,7 +407,7 @@ html[data-variant="c"] .sec-head .num{display:block}
         <a href="contact.html">お問い合わせ</a>
       </nav>
     </div>
-    <p class="copyright">© Lmp Japan Corporation. All Rights Reserved.</p>
+    <p class="copyright">© STYLELINK. All Rights Reserved.</p>
   </div>
 </footer>
 
@@ -425,14 +425,14 @@ html[data-variant="c"] .sec-head .num{display:block}
 
   /* ---------- router ---------- */
   const TITLES = { home: "", business: "事業内容", products: "買取対象機器", flow: "買取の流れ", company: "会社概要", apply: "お問い合わせ" };
-  const BASE = "中古医療機器の買取・販売｜株式会社エルエムピージャパン";
+  const BASE = "中古医療機器の買取・販売｜STYLELINK";
   const CURRENT = document.body.dataset.current || "";
   function route() {
     const id = CURRENT || (location.hash || "#home").slice(1);
     const page = TITLES.hasOwnProperty(id) ? id : "home";
     $$("[data-page]").forEach(p => p.hidden = p.dataset.page !== page);
     $$("[data-nav]").forEach(a => a.classList.toggle("on", a.dataset.nav === page));
-    document.title = TITLES[page] ? TITLES[page] + "｜株式会社エルエムピージャパン" : BASE;
+    document.title = TITLES[page] ? TITLES[page] + "｜STYLELINK" : BASE;
     if (!CURRENT) window.scrollTo({ top: 0, behavior: "auto" });
     closeMenu();
     watch($('[data-page="' + page + '"]'));
